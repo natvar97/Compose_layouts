@@ -19,7 +19,6 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.constraintlayout.compose.ConstraintLayout
@@ -45,11 +44,7 @@ class DescriptionActivity : ComponentActivity() {
 fun DescriptionPage() {
     BoxWithConstraints {
 
-        val constraints = if (minWidth < 600.dp) {
-            MainConstraints(16.dp)
-        } else {
-            MainConstraints(32.dp)
-        }
+        val constraints = MainConstraints()
 
         ConstraintLayout(constraints) {
             Image(
@@ -143,7 +138,7 @@ private fun CardConstraints(): ConstraintSet {
     }
 }
 
-private fun MainConstraints(margin: Dp): ConstraintSet {
+private fun MainConstraints(): ConstraintSet {
 
 
     return ConstraintSet {

@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Compose_layout_practice_140621</string>
     <string name="title_activity_description">DescriptionActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_top_destinations_list">TopDestinationsListActivity</string>
 </resources>

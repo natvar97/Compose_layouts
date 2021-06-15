@@ -10,10 +10,43 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Compose_layout_practice_140621">
         <activity
+            android:name=".TopDestinationsListActivity"
+            android:exported="true"
+            android:label="@string/title_activity_top_destinations_list"
+            android:theme="@style/Theme.Compose_layout_practice_140621.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true"
+            android:label="@string/title_activity_signup"
+            android:theme="@style/Theme.Compose_layout_practice_140621.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.Compose_layout_practice_140621.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".DescriptionActivity"
             android:exported="true"
             android:label="@string/title_activity_description"
-            android:theme="@style/Theme.Compose_layout_practice_140621.NoActionBar" >
+            android:theme="@style/Theme.Compose_layout_practice_140621.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,9 +57,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Compose_layout_practice_140621.NoActionBar">
-
-        </activity>
+            android:theme="@style/Theme.Compose_layout_practice_140621.NoActionBar" />
     </application>
 
 </manifest>
