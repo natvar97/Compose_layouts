@@ -1,8 +1,6 @@
 package com.example.compose_layout_practice_140621
 
 import android.os.Bundle
-import android.text.style.AlignmentSpan
-import android.widget.Space
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.BorderStroke
@@ -23,10 +21,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
+import androidx.compose.ui.graphics.vector.rememberVectorPainter
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.layout.Layout
-import androidx.compose.ui.layout.MeasurePolicy
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
@@ -35,6 +31,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.compose_layout_practice_140621.ui.theme.Compose_layout_practice_140621Theme
+import com.google.accompanist.glide.rememberGlidePainter
 
 class TopDestinationsListActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -54,7 +51,7 @@ class TopDestinationsListActivity : ComponentActivity() {
 fun TopDestinationsList() {
 
     val placeDetailsList = listOf<PlaceDetails>(
-        PlaceDetails("Florence", "Italy", "276", R.drawable.image1),
+        PlaceDetails("Florence", "Italy", "276", (R.drawable.image1)),
         PlaceDetails("Istanbul", "Turkey", "342", R.drawable.image2),
         PlaceDetails("London", "United Kingdom", "261", R.drawable.image3),
         PlaceDetails("Venice", "Italy", "146", R.drawable.image4),
@@ -67,7 +64,8 @@ fun TopDestinationsList() {
     )
 
     Card(
-        modifier = Modifier.fillMaxWidth()
+        modifier = Modifier
+            .fillMaxWidth()
             .fillMaxHeight(),
         backgroundColor = Color.Cyan
     ) {
@@ -154,8 +152,9 @@ fun DestinationItemLayout(placeDetails: PlaceDetails) {
         Row(
             horizontalArrangement = Arrangement.Start
         ) {
+
             Image(
-                painter = painterResource(id = placeDetails.image),
+                painter = rememberGlidePainter( placeDetails.image),
                 contentDescription = null,
                 modifier = Modifier
                     .width(140.dp)
