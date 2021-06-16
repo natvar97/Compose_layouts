@@ -472,24 +472,3 @@ fun HotelLayoutPreview() {
         HotelLayout(hotel)
     }
 }
-
-/*
-        val value  = remember { mutableStateOf(3.2f) }
-
-                RatingBar(
-                    value = value.value,
-                    modifier = Modifier
-                        .background(Brush.horizontalGradient(listOf(Color.Transparent, Color.Black)) , alpha = 0.0f)
-                        .layoutId("hotel_rating_bar"),
-                    activeColor = Color.Red,
-                    inactiveColor = Color.LightGray,
-                    numStars = 5,
-                    size = 30.dp,
-                    onRatingChanged = {
-                        value.value = it
-                    },
-                    ratingBarStyle = RatingBarStyle.Normal,
-                    stepSize = StepSize.HALF,
-                    isIndicator = false
-                )
- */
