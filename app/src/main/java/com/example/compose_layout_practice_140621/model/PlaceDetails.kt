@@ -1,4 +1,4 @@
-package com.example.compose_layout_practice_140621
+package com.example.compose_layout_practice_140621.model
 
 data class PlaceDetails(
     var state : String,
