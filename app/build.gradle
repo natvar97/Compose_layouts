@@ -79,4 +79,8 @@ dependencies {
 
     //rating bar
     implementation 'io.github.a914-gowtham:compose-ratingbar:1.0.6'
+
+    //by for remember
+    implementation "androidx.compose.runtime:runtime:$compose_version"
+    implementation "androidx.compose.runtime:runtime-livedata:$compose_version"
 }

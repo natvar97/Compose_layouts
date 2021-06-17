@@ -9,4 +9,22 @@
     <string name="title_activity_user_profile">UserProfileActivity</string>
     <string name="title_activity_navigation_drawer_home">NavigationDrawerHomeActivity</string>
     <string name="title_activity_home_compose_drawer_layout">HomeComposeDrawerLayout</string>
+    <string name="title_activity_expanded_comments_layout">ExpandedCommentsLayoutActivity</string>
+
+    <string name="rdj_comment">It is with immeasurable grief that we confirm the passing of Chadwick Boseman. Chadwick was diagnosed with stage III colon cancer in 2016, and battled with it these last 4 years as it progressed</string>
+    <string name="leonardo_comment">No one is born hating another person because of the color of his skin or his background or his religion…</string>
+    <string name="dep_comment">America, honored that you have chosen me to lead our great country.
+                The work ahead of us will be hard, but I promise you this: I will be a President for all Americans — whether you voted for me or not.
+                I will keep the faith that you have placed in me.</string>
+
+    <string name="christian_comment">After being tapped by Steven Spielberg to star in his epic period film, "Empire of the Sun" (1987), actor Christian Bale found himself thrust into the spotlight, causing enough apprehension about being a celebrity that he considered quitting his career before it really began. But Bale later overcame any initial misgivings to emerge as a gifted young talent worthy of serious</string>
+    <string name="allu_arjun_comment">I now ask everyone to take the initiative ahead. Share photo of you planting a sapling and I’ll be resharing some of them. Let us work together to save the planet and #GoGreenWithAA</string>
+    <string name="akshay_comment">Spent a memorable day with the
+                    @BSF_India
+                    bravehearts guarding the borders today. Coming here is always a humbling experience… meeting the real heroes Heart suit My heart is filled with nothing but respect.</string>
+
+    <string name="rashmika_comment">broken.
+from the bottom of my heart, i am so sorry. i do not have words.</string>
+
+<string name="kajal_comment">John McCain is an American hero and one of the bravest fighters I have ever known. Cancer does not know what it is up against. Give it hell, John.</string>
 </resources>
