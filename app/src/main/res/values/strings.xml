@@ -6,4 +6,5 @@
     <string name="title_activity_top_destinations_list">TopDestinationsListActivity</string>
     <string name="title_activity_state_wise_hotel_list">StateWiseHotelList</string>
     <string name="title_activity_movies_list_by_categories">MoviesListByCategories</string>
+    <string name="title_activity_user_profile">UserProfileActivity</string>
 </resources>
