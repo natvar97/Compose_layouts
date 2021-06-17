@@ -38,7 +38,7 @@ import com.example.compose_layout_practice_140621.model.HotelDetails
 import com.example.compose_layout_practice_140621.ui.theme.Compose_layout_practice_140621Theme
 import com.google.accompanist.glide.rememberGlidePainter
 
-class StateWiseHotelList : ComponentActivity() {
+open class StateWiseHotelList(title : String , route : String) : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {

@@ -35,7 +35,7 @@ import androidx.compose.ui.unit.sp
 import androidx.constraintlayout.compose.ConstraintSet
 import com.example.compose_layout_practice_140621.ui.theme.Compose_layout_practice_140621Theme
 
-class SignupActivity : ComponentActivity() {
+open class SignupActivity(title : String , route : String) : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {

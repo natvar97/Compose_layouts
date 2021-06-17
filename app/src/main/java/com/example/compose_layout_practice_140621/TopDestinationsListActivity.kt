@@ -33,7 +33,7 @@ import com.example.compose_layout_practice_140621.model.PlaceDetails
 import com.example.compose_layout_practice_140621.ui.theme.Compose_layout_practice_140621Theme
 import com.google.accompanist.glide.rememberGlidePainter
 
-class TopDestinationsListActivity : ComponentActivity() {
+open class TopDestinationsListActivity(title : String , route : String) : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {

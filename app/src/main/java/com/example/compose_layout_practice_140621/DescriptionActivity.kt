@@ -26,7 +26,7 @@ import androidx.constraintlayout.compose.ConstraintSet
 import androidx.constraintlayout.compose.Dimension
 import com.example.compose_layout_practice_140621.ui.theme.Compose_layout_practice_140621Theme
 
-class DescriptionActivity : ComponentActivity() {
+open class DescriptionActivity(title : String , route : String) : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {

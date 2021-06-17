@@ -7,4 +7,6 @@
     <string name="title_activity_state_wise_hotel_list">StateWiseHotelList</string>
     <string name="title_activity_movies_list_by_categories">MoviesListByCategories</string>
     <string name="title_activity_user_profile">UserProfileActivity</string>
+    <string name="title_activity_navigation_drawer_home">NavigationDrawerHomeActivity</string>
+    <string name="title_activity_home_compose_drawer_layout">HomeComposeDrawerLayout</string>
 </resources>

@@ -10,6 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Compose_layout_practice_140621">
         <activity
+            android:name=".HomeComposeDrawerLayout"
+            android:exported="true"
+            android:label="@string/title_activity_home_compose_drawer_layout"
+            android:theme="@style/Theme.Compose_layout_practice_140621.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NavigationDrawerHomeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_navigation_drawer_home"
+            android:theme="@style/Theme.Compose_layout_practice_140621.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".UserProfileActivity"
             android:exported="true"
             android:label="@string/title_activity_user_profile"

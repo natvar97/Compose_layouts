@@ -41,7 +41,7 @@ import androidx.compose.ui.unit.sp
 import androidx.constraintlayout.compose.*
 import com.example.compose_layout_practice_140621.ui.theme.Compose_layout_practice_140621Theme
 
-class LoginActivity : ComponentActivity() {
+open class LoginActivity(title : String , route : String) : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {

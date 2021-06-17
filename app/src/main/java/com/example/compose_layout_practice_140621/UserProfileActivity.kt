@@ -40,7 +40,7 @@ import com.example.compose_layout_practice_140621.model.BedRoomDetails
 import com.example.compose_layout_practice_140621.ui.theme.Compose_layout_practice_140621Theme
 import com.google.accompanist.glide.rememberGlidePainter
 
-class UserProfileActivity : ComponentActivity() {
+open class UserProfileActivity(title : String , route : String) : ComponentActivity() {
     @ExperimentalFoundationApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

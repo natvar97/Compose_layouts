@@ -36,7 +36,7 @@ import com.example.compose_layout_practice_140621.model.MovieDetails
 import com.example.compose_layout_practice_140621.ui.theme.Compose_layout_practice_140621Theme
 import com.google.accompanist.glide.rememberGlidePainter
 
-class MoviesListByCategories : ComponentActivity() {
+open class MoviesListByCategories(title : String , route : String) : ComponentActivity() {
     @ExperimentalFoundationApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
