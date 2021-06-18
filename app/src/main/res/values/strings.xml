@@ -26,5 +26,7 @@
     <string name="rashmika_comment">broken.
 from the bottom of my heart, i am so sorry. i do not have words.</string>
 
-<string name="kajal_comment">John McCain is an American hero and one of the bravest fighters I have ever known. Cancer does not know what it is up against. Give it hell, John.</string>
+    <string name="kajal_comment">John McCain is an American hero and one of the bravest fighters I have ever known. Cancer does not know what it is up against. Give it hell, John.</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_bottom">Bottom</string>
 </resources>
